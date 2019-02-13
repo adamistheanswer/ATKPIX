@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "Attacking Pixels", // <title>
   shortSiteTitle: "Adam Robinson", // <title> ending for posts and pages
   siteDescription: "ATKPIXITB",
-  siteUrl: "attackingpixels.com",
+  siteUrl: "https://www.attackingpixels.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
