@@ -6,7 +6,7 @@ import IconButton from "@material-ui/core/IconButton";
 
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-import avatar from "../../images/jpg/attackingpixels.jpg";
+import avatar from "../../images/jpg/InvertedLogo.jpg";
 import config from "../../../content/meta/config";
 
 const styles = theme => ({
@@ -42,12 +42,12 @@ const styles = theme => ({
   avatar: {
     width: "36px",
     height: "36px",
-    borderRadius: "65% 75%",
-    border: "1px solid #ddd",
-    transition: "all .3s",
-    transitionTimingFunction: "ease",
-    display: "inline-block",
-    overflow: "hidden",
+    // borderRadius: "65% 75%",
+    // border: "1px solid #ddd",
+    // // transition: "all .3s",
+    // transitionTimingFunction: "ease",
+    // display: "inline-block",
+    // overflow: "hidden",
     "& img": {
       maxWidth: "100%"
     },
@@ -58,12 +58,12 @@ const styles = theme => ({
     [`@media (min-width: ${theme.mediaQueryTresholds.L}px)`]: {
       width: "60px",
       height: "60px"
-    },
-    "@media (hover: hover)": {
-      "&:hover": {
-        borderRadius: "75% 65%"
-      }
     }
+    // "@media (hover: hover)": {
+    //   "&:hover": {
+    //     borderRadius: "75% 65%"
+    //   }
+    // }
   },
   title: {
     willChange: "transform, left, top",
