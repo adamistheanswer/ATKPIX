@@ -28,6 +28,7 @@ module.exports = {
     { name: "github", url: "https://github.com/adamistheanswer" },
     { name: "twitter", url: "https://twitter.com/attackingpixels" },
     { name: "facebook", url: "https://facebook.com/adamistheanswer" },
-    { name: "instagram", url: "https://facebook.com/adamistheanswer" }
+    { name: "instagram", url: "https://instagram.com/adamistheanswer" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/adamgrobinson" },
   ]
 };

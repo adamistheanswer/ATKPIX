@@ -8,6 +8,7 @@ import GithubIcon from "!svg-react-loader!../../images/svg-icons/circle-github.s
 import FacebookIcon from "!svg-react-loader!../../images/svg-icons/circle-facebook.svg?name=FacebookIcon";
 import TwitterIcon from "!svg-react-loader!../../images/svg-icons/circle-twitter.svg?name=TwitterIcon";
 import InstagramIcon from "!svg-react-loader!../../images/svg-icons/circle-instagram.svg?name=InstagramIcon";
+import LinkedinIcon from "!svg-react-loader!../../images/svg-icons/circle-linkedin.svg?name=LinkedinIcon";
 
 const styles = theme => ({
   
@@ -47,7 +48,8 @@ const Socialcons = props => {
     twitter: TwitterIcon,
     facebook: FacebookIcon,
     github: GithubIcon,
-    instagram: InstagramIcon
+    instagram: InstagramIcon,
+    linkedin: LinkedinIcon
   };
 
   return (
