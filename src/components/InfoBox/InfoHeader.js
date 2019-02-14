@@ -74,7 +74,7 @@ const styles = theme => ({
     "& small": {
       display: "block",
       fontSize: ".6em",
-      marginTop: ".3em"
+      marginTop: ".4em"
     },
     [`@media (min-width: ${theme.mediaQueryTresholds.M}px)`]: {
       fontSize: `${theme.info.fonts.boxTitleSizeM}em`

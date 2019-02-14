@@ -1,20 +1,12 @@
 ---
-title: Other GatsbyJs starters
-menuTitle: My starters
+title: Misc Gallery
+menuTitle: Artwork
 ---
 
-[Personal**Blog**](https://github.com/greglobinski/gatsby-starter-personal-blog) is not my first [GatsbyJS](https://www.gatsbyjs.org/) starter.
+<img src="./glitch-logo.gif"  style="width:100%">
 
-![SimpleLanding](./gatsby-starter-simple-landing.png)
+<img src="./ram-skull.gif"  style="width:100%">
 
-### SimpleLanding
+![unsplash.com](.\arabella-drummond-illustraton-front-magazine.jpg)
 
-As the name says, it is a landing page starter.
-[Demo](https://gatsby-starter-simple-landing.greglobinski.com/) | [Github repo](https://github.com/greglobinski/gatsby-starter-simple-landing)
-
-![StyledBlog](./gatsby-styled-blog-starter.jpg)
-
-### StyledBlog
-
-That was my first Gatsby starter. It is a forefather of the starter you are looking at now.
-[Github repo](https://github.com/greglobinski/gatsby-styled-blog-starter)
+![unsplash.com](.\hello-kitty-illustration-wheat-paste-graffiti-tattoo-flash.jpg)
