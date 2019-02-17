@@ -1,8 +1,8 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "Attacking Pixels - ", // <title>
-  shortSiteTitle: "Adam Robinson", // <title> ending for posts and pages
+  siteTitle: "Attacking Pixels - Adam Robinson", // <title>
+  shortSiteTitle: "Attacking Pixels - Adam Robinson", // <title> ending for posts and pages
   siteDescription: "Attacking Pixels is....",
   siteUrl: "https://www.attackingpixels.com",
   pathPrefix: "",
@@ -26,8 +26,7 @@ module.exports = {
   // social
   authorSocialLinks: [
     { name: "github", url: "https://github.com/adamistheanswer" },
-    { name: "twitter", url: "https://twitter.com/attackingpixels" },
-    { name: "facebook", url: "https://facebook.com/adamistheanswer" },
+    { name: "facebook", url: "https://www.facebook.com/adamistheanswer" },
     { name: "instagram", url: "https://instagram.com/adamistheanswer" },
     { name: "linkedin", url: "https://www.linkedin.com/in/adamgrobinson" }
   ]

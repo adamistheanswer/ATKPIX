@@ -2,10 +2,7 @@
 title: info
 ---
 
-I'm a software developer in London. <br>I used to be a designer too, but now I'm concentrating on code. Welcome to my digital playground!
+Hi, I'm a software developer and maker based in London. I used to be a designer, but now I'm concentrating on code. Take a look at my projects and experiments.
 
-👔 Full Stack Developer @ <a href="https://defty.com/" style="color:#555555;">defty</a><br>
-💻 M.Sc - Computer Science <br>
-🎨 B.Des - Product Design <br>
 
 

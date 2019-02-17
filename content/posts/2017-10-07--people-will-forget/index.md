@@ -2,7 +2,7 @@
 title: People will forget what you said, people will forget what you did
 subTitle: But people will never forget how you made them feel.
 category: "sayings"
-cover: photo-1489900464632-5f5907edda24-cover.jpg
+cover: cover1.jpg
 ---
 
 Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. **Pellentesque** habitant morbi [tristique](http://google.com) senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. _Integer gravida_ nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.
@@ -16,7 +16,7 @@ into the belt and made herself on the way.
 
 Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.
 
-![unsplash.com](./photo-1489900464632-5f5907edda24.jpg)
+![unsplash.dcom](./img1.jpg)
 
 Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
