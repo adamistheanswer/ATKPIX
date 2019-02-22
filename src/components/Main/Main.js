@@ -33,6 +33,7 @@ const styles = theme => ({
     "& strong, & b": {
       letterSpacing: "-.02em",
       fontWeight: 600
+    
     },
     "& a": {
       fontWeight: 600,

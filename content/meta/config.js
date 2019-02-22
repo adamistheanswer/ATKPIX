@@ -3,7 +3,7 @@ const colors = require("../../src/styles/colors");
 module.exports = {
   siteTitle: "Attacking Pixels - Adam Robinson", // <title>
   shortSiteTitle: "Attacking Pixels - Adam Robinson", // <title> ending for posts and pages
-  siteDescription: "Attacking Pixels is....",
+  siteDescription: "Attacking Pixels – The Creative Works of Adam George Robinson",
   siteUrl: "https://www.attackingpixels.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
