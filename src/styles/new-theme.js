@@ -148,7 +148,7 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: "#709425"
+      main: "#FF5733"
     },
     type: "dark",
     action: {

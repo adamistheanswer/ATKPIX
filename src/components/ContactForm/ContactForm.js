@@ -59,8 +59,9 @@ class ContactForm extends React.Component {
   };
 
   handleSubmit = e => {
-    fetch("/", {
+    fetch("/", { 
       method: "POST",
+      action: "https://formspree.io/adam@attackingpixels.com",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
@@ -80,14 +81,18 @@ class ContactForm extends React.Component {
     const { classes } = this.props;
     const { email, name, message, submitError } = this.state;
 
+
+
     return (
+
+
       <ValidatorForm
         onSubmit={this.handleSubmit}
         onError={errors => console.log(errors)}
         name="contact"
         ref={f => (this.form = f)}
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
+        action="https://formspree.io/adam@attackingpixels.com"
+        method="POST"
       >
         {submitError && <p className={classes.submitError}>{submitError}</p>}
         <TextValidator
@@ -96,7 +101,7 @@ class ContactForm extends React.Component {
           label="Name"
           value={name}
           onChange={this.handleChange}
-          validators={["required"]}
+        //  validators={["required"]}
           errorMessages={["this field is required"]}
           fullWidth
           margin="normal"
@@ -108,7 +113,7 @@ class ContactForm extends React.Component {
           label="E-mail"
           value={email}
           onChange={this.handleChange}
-          validators={["required", "isEmail"]}
+         // validators={["required", "isEmail"]}
           errorMessages={["this field is required", "email is not valid"]}
           fullWidth
           margin="normal"
@@ -120,7 +125,7 @@ class ContactForm extends React.Component {
           label="Message"
           value={message}
           onChange={this.handleChange}
-          validators={["required"]}
+        //  validators={["required"]}
           errorMessages={["this field is required"]}
           multiline
           fullWidth
@@ -138,6 +143,8 @@ class ContactForm extends React.Component {
           Send
         </Button>
       </ValidatorForm>
+
+      
     );
   }
 }

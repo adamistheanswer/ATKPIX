@@ -1,6 +1,6 @@
 ---
-title: Misc Gallery
-menuTitle: Gallaries
+title: A taster of what I've done,
+menuTitle: Showcase
 ---
 
 <img src="./glitch-logo.gif" style="width:100%">
@@ -9,4 +9,4 @@ menuTitle: Gallaries
 
 ![arabella drummond illustration](.\arabella-drummond.jpg)
 
-![hello kitty graf](.\hello-kitty-GRAF.jpg)
+![hello kitty graf ](.\hello-kitty-GRAF.jpg)

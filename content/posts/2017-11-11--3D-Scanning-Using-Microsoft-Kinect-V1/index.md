@@ -1,12 +1,15 @@
 ---
 title: 3D Scans Using a Microsoft Kinect
 subTitle: Kinect ➡️ Draco ➡️ Three.js
+category: Experiments
 cover: adam-robinson-3D-model.jpg
 ---
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
 
-![3d Head](./adam-robinson-3D-model2.jpg)
+![Adam Robinson Head](./adam-robinson-3D-model2.jpg)
+
+
 
 Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
 

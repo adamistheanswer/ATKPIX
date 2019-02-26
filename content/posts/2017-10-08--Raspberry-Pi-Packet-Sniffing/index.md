@@ -5,23 +5,48 @@ category: "Rasberry Pi"
 cover: PiSniffer.jpg 
 ---
  
-Fusce a metus eu diam varius congue nec nec sapien. Nunc convallis accumsan justo. **Pellentesque** habitant morbi [tristique](http://google.com) senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec. _Integer gravida_ nisi ut magna mollis molestie. Nullam pharetra accumsan sagittis. Proin tristique rhoncus orci, eget vulputate nisi sollicitudin et. Quisque lacus augue, mollis non mollis et, ullamcorper in purus. Morbi et sem orci.
+### Overview
 
-## On deer horse aboard tritely yikes and much
- 
-The Big Oxmox advised her not to do so, because there were thousands of
-bad Commas, wild Question Marks and devious Semikoli, but the Little 
-Blind Text didn’t listen. She packed her seven versalia, put her initial
-into the belt and made herself on the way.
+To gather the dataset for my univeristy project I built a packet sniffing device based around a Raspberry Pi 3 B+. The Raspberry Pi ran Kali Linux (Re4son - Sticky Fingers Fork) used a monitor mode compatible Wi-Fi adapter (Alfa AWUS036NEH), GPS receiver (GlobalSat BU-353) and ran a my custom Python script [[GitHub]](https://github.com/adamistheanswer/PiSniffer). This Python script allows you to capture network management packets (probe requests) being broadcast from devices, the co-ordinates from where they been discovered, device manufacturers and the networks being seached for, in CSV format.
 
-Praesent accumsan odio in ante ullamcorper id pellentesque mauris rhoncus. Duis vitae neque dolor. Duis sed purus at eros bibendum cursus nec a nulla. Donec turpis quam, ultricies id pretium sit amet, gravida eget leo.
+A rudimentary case was produced from a plastic container and zip ties to allow for transportation in a backpack during data collection. The device was powered using a high capacity power bank which allowed the device to run for around 4 hours, dependent on the levels of GPS & WI-Fi activity received.
+
+Using a Bluetooth keyboard and the 3.5” TFT running from the Raspberry Pi’s GPIO (General Purpose Input Output) interface, the system could be operated anywhere. This focus on portability removed the need to SSH into the Raspberry Pi.
 
 ![Rasberry Pi Sniffer](./PiSniffer.jpg)
 
-Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+### Installation
 
-Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum. Nulla vel aliquet libero. Vestibulum eget felis nec purus commodo convallis. Aliquam erat volutpat.
+```javascript
+// Clone Repo
+$ git clone https://github.com/adamistheanswer/PiSniffer
+```
 
-Proin suscipit luctus orci placerat fringilla. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+```javascript
+// Aircrack-ng tools required. Install for these commands non Kali System
+// Kali command to change wifi receiver into monitor (promiscuous) mode
+$ airmon-ng start wlan0
+// Run airodump against monitor mode interface for channel switching
+$ airodump-ng wlan0mon
+```
 
-Proin bibendum ullamcorper rutrum.
+```javascript
+// In new terminal navigate to script and run with (set file name)
+$ python sniffGPS.py -m wlan0mon -f [output file name]
+```
+
+![Rasberry Pi Sniffer Run](./PiSniffer1.png)
+
+### ALFA AWUS036NEH 2.4 GHZ
+
+The Alfa AWUS036NEH Wi-Fi adapter was selected as it operated at 2.4GHz and can scan all b/g/n 802.11 standards. The adapter comes equipped with a removable high gain aerial which out of the box gives very high range, and uses the Ralink RT3070 Chipset which was capable of being switched into monitor mode. Terminal commands demonstrating turning the chosen adapter from station mode into monitor mode using airmon-ng from the aircrack-NG suite can be seen here;
+
+![Airmon-NG](./airmon.png)
+
+### Discovering devices and their trusted networks 🔐
+
+The collection script developed for the project tested capable of detecting the closed set of devices through their MAC addresses and SSIDs contained within directed probe requests. As illustrated in this highlighted dataset.
+
+![Sequencing Packets](./SEQ.png)
+
+Due to factors such as different onboard hardware running on each device and operating systems, probes are transmitted in different patterns of network discovery packets and with different densities and timings. MAC identifiers for Laptops and mobile devices we're discovered throughout testing with this script and worryingly devices which should by now hide personally identifiable MAC addresses we're vunerable to disclosing both you and the networks you have been previously connected to. If you'd like to read more about how this device was used check out my [Visualising Device Footprints Through 802.11 Probe Requests project](https://www.attackingpixels.com/Visualising-Unprotected-Probe-Requests/).
