@@ -23,7 +23,7 @@ Projects made possible by Attacking Design:
 * Developing a new hair removal test rig for P&G (Gillette) 
 * Yorkshire Candy Company - Advent calander  
 * 3D Modeling the Sensio 2015 product line
-* DJR - Jetski graphics
+* [DJR](http://djrltd.com/) - Jetski graphics
 * Developing the wonder water alcohol awareness campaign, partnered with the NHS 
 * Producing instructional and marketing visuals for Synthotech, a robotics company specialising in domestic gas supply
 * Developing a sustainable modular housing system for Blok Build used across projects in the UK

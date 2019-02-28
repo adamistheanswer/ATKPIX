@@ -17,3 +17,11 @@ An initial wearable sleeping bag, proof of concept prototype was produced in ear
 Upon extensive product development the SLPY was soft launched at Boardmasters 2014 to coincide with the SLPY.com website launch. Prior to the grand unveiling further graphic assets we’re produced to support the SLPY product based on imagery from a product photoshoot. These designs included: business cards, t shirts, jumpers, polo shirts, a trade-stand a Fieldcandy tent collaboration.
 ![SLPY Wearable Sleeping Bag 5](./Attacking-Design-SLPY-Adventures-The-Original-Sleepy-Wearable-Sleeping-Bag1.jpg)
 Leading up to the product launch a series of marketing materials were released over social media. A range of images were posted to build hype with potential customers using Facebook, Twitter and Instagram using the #SLPYAdventueres. Competitions we’re also ran alongside the launch of the SLPY to win a bag with entrants uploading pictures to social media.
+
+![SLPY Wearable Sleeping Bag 6](./slpyv21.jpg)
+![SLPY Wearable Sleeping Bag 6](./slpyv2.jpg)
+![SLPY Wearable Sleeping Bag 6](./slpyv22.jpg)
+
+![SLPY Wearable Sleeping Bag Range 1](./range1.jpg)
+![SLPY Wearable Sleeping Bag Range 2](./range2.jpg)
+![SLPY Wearable Sleeping Bag Range 3](./range3.jpg)
