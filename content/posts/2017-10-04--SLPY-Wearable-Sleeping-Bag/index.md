@@ -24,4 +24,4 @@ Leading up to the product launch a series of marketing materials were released o
 
 ![SLPY Wearable Sleeping Bag Range 1](./range1.jpg)
 ![SLPY Wearable Sleeping Bag Range 2](./range2.jpg)
-![SLPY Wearable Sleeping Bag Range 3](./range3.jpg)
+![SLPY Wearable Sleeping Bag Range 3 2](./range3.jpg)

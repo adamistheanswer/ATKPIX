@@ -1,3 +1,7 @@
-RewriteEngine On
-RewriteCond %{SERVER_PORT} !=443
-RewriteRule ^(.*)$ https://attackingpixels.com/$1 [R=301,L]
+#First rewrite any request to the wrong domain to use the correct one (here www.)
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#Now, rewrite to HTTPS:
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
