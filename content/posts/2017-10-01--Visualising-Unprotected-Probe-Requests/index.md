@@ -1,5 +1,5 @@
 ---
-title: Geolocating Device Footprints Through 802.11 Probe Requests
+title: Visualising Device Footprints Through 802.11 Probe Requests
 subTitle: 🎓 University of Birmingham - M.Sc Dissertation 
 category: "Code"
 cover: trackingCover.png 

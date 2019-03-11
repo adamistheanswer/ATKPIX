@@ -2,26 +2,101 @@
 title: Hi, I’m Adam Robinson.
 menuTitle: About
 ---
+<style>
 
-<table style="width:100%">
-  <tr>
-    <th  align="left" padding-left: 80px; style="padding-right: 15px;" >
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
 
-👔 Full Stack Developer @ [defty](https://defty.com/)<br>
-🎓 M.Sc - Computer Science - [Class of 2017](https://www.birmingham.ac.uk/postgraduate/courses/taught/computer-science/computer-science.aspx)<br>
-👔 Freelance Designer<br>
-👔 Product Designer @ <strike>[SLPY](https://www.attackingpixels.com/SLPY-Wearable-Sleeping-Bag/)</strike><br>
-🔥 Entrepreneurial Spark - Accelerator<br>
-👔 Director & Designer @ <strike>[Attacking Design](https://www.attackingpixels.com/Attacking-Design/)</strike><br>
-🐣 Leeds University - Buisiness Incubator<br>
-👔 Junior Designer @ <strike>[Disruptive Innovation](http://www.disruptive-innovation.co.uk/)</strike><br>
-🎓 B.Des - Product Design - [Class of 2010](https://engineering.leeds.ac.uk/product-design)
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
 
-</th>
-    <th style="width:50%" > <iframe id="adam-face-3d" width="100%" height="380" scrolling="no" frameborder="no" src="https://www.attackingpixels.com/1"></iframe> 
-    </th> 
-  </tr>
+table th,
+table td {
+  padding-left: 15px;
+  text-align: left;
+}
+
+table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table caption {
+    font-size: 1.3em;
+  }
   
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table tr {
+    
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  table td {
+    display: block;
+    text-align: left;
+     padding-left: 0px;
+  }
+  
+  table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+</style>
+
+<table> 
+  <tbody>
+    <tr>
+      <td ><iframe id="adam-face-3d" width="100%" height="380" scrolling="no" frameborder="no" src="https://www.attackingpixels.com/2"></iframe> </td>
+      <td >
+👔 Full Stack Developer @ <a href="https://defty.com/">Defty</a><br>
+<hr>
+🎓 M.Sc - Computer Science - <a href="https://www.birmingham.ac.uk/postgraduate/courses/taught/computer-science/computer-science.aspx">Class of 2017</a><br>
+👔 Freelance Designer<br>
+👔 Product Designer @ <strike><a href="https://www.attackingpixels.com/SLPY-Wearable-Sleeping-Bag/">SLPY</a><br></strike>
+🔥 Entrepreneurial Spark - Accelerator<br>
+👔 Director & Designer @ <strike><a href="https://www.attackingpixels.com/Attacking-Design/">Attacking Design</a></strike><br>
+🐣 Leeds University - Buisiness Incubator<br>
+👔 Junior Designer @ <strike><a href="http://www.disruptive-innovation.co.uk/">Disruptive Innovation</a></strike><br>
+🎓 B.Des - Product Design - <a href="https://engineering.leeds.ac.uk/product-design">Class of 2010</a><br>
+<br>
+</td>
+</tr>
+  </tbody>
 </table>
 
 <script>
@@ -32,6 +107,7 @@ $(document).ready(function() {
   });
 });
 </script>
+
 🌍 <strong>Currently living in:</strong> London. I'm from a small village in Cheshire, on the border of Wales. 
 
 💡 <strong>Current fascinations:</strong> Open manufacturing & design, growth hacking & [Three.js](https://threejs.org/)
