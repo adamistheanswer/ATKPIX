@@ -6,7 +6,7 @@ cover: Blue-Harvest-Aeroponics-Design-Farming.jpg
 ---
  
  
-![Blue Harvest](./Blue-Harvest-Aeroponics-1.jpg)
+![Blue Harvest](./Blue-Harvest-Aeroponics-1-Adam.jpg)
 
 My concept concentrated on reducing the cost of entry to commercial hydroponics while, making use of recycled materials and IBCs (intermediate bulk containers) which are a surplus to processed food production. The intention was for the product to be delivered as a self contained kit for commercial agriculture, small city co-ops (reducing the pressure on rural arable land) and for disaster relief. 
 

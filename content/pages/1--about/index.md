@@ -117,8 +117,3 @@ $(document).ready(function() {
 🎧 <strong>My soundtrack:</strong> Techno, Acid & House. Bought myself turntables aged 15 but never progressed past a bedroom DJ. Failing to to curb my vinyl habit!
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/156893117&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-<br>💽 Labels I recommend: [Ed Banger,](https://www.youtube.com/channel/UCR8zOlF04Q6gdZIeMtCJZgQ)
-[BNR,](https://www.youtube.com/user/boysnoizerecofficial)
-[Anjunadeep,](https://www.youtube.com/user/anjunadeep) 
-[Toolroom](https://www.youtube.com/user/toolroomrecords)
