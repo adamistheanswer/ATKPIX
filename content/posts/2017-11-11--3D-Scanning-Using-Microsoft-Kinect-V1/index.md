@@ -7,7 +7,7 @@ cover: adam-robinson-3D-model.jpg
 
 After experimenting with three.js I set myself the goal of producing a 3D self portrait which I could render in the browser. Using a second hand [X360 Kinect](https://uk.webuy.com/product-detail?id=s360kinsoxb&categoryName=xbox-360-accessories&superCatName=gaming&title=x360-official-kinect-with-psu-%28no-game%29) which I bought for £12, and through considerable trial and error, I achieved some decent results. Below is an interactive example of a finished model running in my three.js .gltf (Google Draco compressed) model viewer which can be found on [github](https://github.com/adamistheanswer/gltfLoader)
 
-<iframe id="adam-face-3d" width="100%" height="350" scrolling="no" frameborder="no" src="https://www.attackingpixels.com/2"></iframe>
+<iframe id="adam-face-3d" width="100%" height="350" scrolling="no" frameborder="no" src="https://confident-snyder-a05c9e.netlify.com/"></iframe>
 
 Here's an overview of the workflow I devised if you want to have a go at producing one yourself. 
 
