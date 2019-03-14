@@ -6,7 +6,7 @@ import IconButton from "@material-ui/core/IconButton";
 
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-import avatar from "../../images/jpg/InvertedLogo.jpg";
+import avatar from "../../images/jpg/invertedLogo.jpg";
 import config from "../../../content/meta/config";
 
 const styles = theme => ({
