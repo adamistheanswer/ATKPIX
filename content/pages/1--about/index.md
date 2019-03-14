@@ -114,7 +114,7 @@ $(document).ready(function() {
  
 🥅 <strong>Goals for 2019:</strong> Fastpack Offas Dyke, Visit Albania & Code more
 
-🎧 <strong>My soundtrack:</strong> Techno, Acid & House. Bought myself turntables aged 15 but never progressed past a bedroom DJ. Failing to to curb my vinyl habit. 
+🎧 <strong>My soundtrack:</strong> Techno, Acid & House. Bought myself turntables aged 15 but never progressed past a bedroom DJ. Failing to to curb my vinyl habit!
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/156893117&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
