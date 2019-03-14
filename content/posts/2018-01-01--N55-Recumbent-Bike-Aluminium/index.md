@@ -1,6 +1,6 @@
 ---
 title: N55 Aluminium Recumbent Bicycle
-subTitle: Building a recumbent 🚴🏻‍♂️
+subTitle: Building an XYZ recumbent 🚴🏻‍♂️
 category: "Experiments"
 cover: N55-Recumbent-Bike-Aluminium.jpg
 ---
