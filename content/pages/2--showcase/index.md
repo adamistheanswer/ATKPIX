@@ -7,6 +7,6 @@ menuTitle: Showcase
 
 <img src="./ram-skull.gif" style="width:100%">
 
-![arabella drummond illustration](.\arabella-drummond.jpg)
+![arabella drummond illustration](./arabella-drummond.jpg)
 
-![hello kitty graf ](.\hello-kitty-GRAF.jpg)
+![hello kitty graf ](./hello-kitty-GRAF.jpg)

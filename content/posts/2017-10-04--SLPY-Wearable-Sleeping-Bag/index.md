@@ -18,6 +18,8 @@ Upon extensive product development the SLPY was soft launched at Boardmasters 20
 ![SLPY Wearable Sleeping Bag 5](./Attacking-Design-SLPY-Adventures-The-Original-Sleepy-Wearable-Sleeping-Bag1.jpg)
 Leading up to the product launch a series of marketing materials were released over social media. A range of images were posted to build hype with potential customers using Facebook, Twitter and Instagram using the #SLPYAdventueres. Competitions we’re also ran alongside the launch of the SLPY to win a bag with entrants uploading pictures to social media.
 
+### SLPY MK.2
+
 ![SLPY Wearable Sleeping Bag 6](./slpyv21.jpg)
 ![SLPY Wearable Sleeping Bag 6](./slpyv2.jpg)
 ![SLPY Wearable Sleeping Bag 6](./slpyv22.jpg)
