@@ -74,5 +74,3 @@ Not all instances of airports within the data gave clean hits. If airports used 
 
 ![airports](./airports.png)
 ![airports](./airports.jpg)
-.
-
