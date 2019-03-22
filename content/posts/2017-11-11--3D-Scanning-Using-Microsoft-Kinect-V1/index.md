@@ -9,7 +9,7 @@ After experimenting with three.js I set myself the goal of producing a 3D self p
 
 <iframe id="adam-face-3d" width="100%" height="350" scrolling="no" frameborder="no" src="https://confident-snyder-a05c9e.netlify.com/"></iframe>
 
-Here's an overview of the workflow I devised if you want to have a go at producing one yourself. 
+Here's an overview of the workflow I devised, if you want to have a go at producing one yourself. 
 
 1. Use XBOX 360 Kinect mk1 with Skanect to capture 3D model and texture data
 2. Export model in .ply format with per vertex colouring
@@ -23,7 +23,7 @@ Here's an overview of the workflow I devised if you want to have a go at produci
 
 ### Scanning with the kinect
 
-The Kinect mk1 turned out to be a really capable 3D scanner when paired with the Kinect SDK and Skanect, especially when considering it was released in Nov 2010 and you can pick one up for the price of a few beers 🍺  
+The Kinect mk1 turned out to be a really capable 3D scanner when paired with the Kinect SDK and Skanect, considering it was released in Nov 2010 and you can pick one up for the price of a few beers 🍺  
 
 It's a two person task, to get a scan using the kinect to work out and you'll need to have a few trial runs to get the hang of it. My first attempts resulted in completely mangled models! 
 

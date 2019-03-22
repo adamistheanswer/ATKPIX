@@ -8,12 +8,12 @@ cover: Blue-Harvest-Aeroponics-Design-Farming.jpg
  
 ![Blue Harvest](./Blue-Harvest-Aeroponics-1-Adam.jpg)
 
-My concept concentrated on reducing the cost of entry to commercial hydroponics while, making use of recycled materials and IBCs (intermediate bulk containers) which are a surplus to processed food production. The intention was for the product to be delivered as a self contained kit for commercial agriculture, small city co-ops (reducing the pressure on rural arable land) and for disaster relief. 
+This concept concentrated on reducing the cost of entry into commercial hydroponics, while making use of recycled materials and IBCs (intermediate bulk containers) which are a surplus to processed food production. The product was intended to be delivered as a self contained kit for commercial agriculture, small city co-ops (reducing the pressure on rural arable land) and for disaster relief. 
 
 ![Blue Harvest Leeds Product Design Adam Robinson](./Blue-Harvest-Aeroponics-Design-Farming-Slide-13.jpg)
 ![Blue Harvest Leeds Product Design Adam Robinson 3](./Blue-Harvest-Aeroponics-Design-Farming-Slide-12.jpg)
 
-The final product developed into a kit from the initial pre-built design. This came after research into distribution and storage of stock. The physical dimentions of the device meant that it would be difficult to hold large volumes in storage and a solid frame would be harder to transport. Developing a frame that would perform as required and could be broken down into components that could fit within the main chamber was key.
+The final product developed into a kit, from the initial pre-built design. This came after research into distribution and storage of stock. The physical dimentions of the device meant that it would be difficult to hold large volumes in storage and a solid frame would be harder to transport. Developing a frame that would perform as required and could be broken down into components that could fit within the main chamber was key. Using recycled IBC's as the main housing also allowed for easy stacking and distribution when supplied in ISO freight containers.
 
 ![Blue Harvest Leeds Product Design Adam Robinson 4](./Blue-Harvest-Aeroponics-Design-Farming-Slide-14.jpg)
 

@@ -11,11 +11,11 @@ cover: trackingCover.png
 <strong>Technologies:</strong> Mongo, Kali, Raspberry Pi, Javascript, Python & Flask, D3.js<br>
 <strong>Mark:</strong> Distinction 79% - [Download PDF](https://www.attackingpixels.com/1/Robinson-1854199.pdf)
 
-Probe requests not using MAC randomisation contain the sender’s MAC address and potentially a previously authenticated network SSID from the searching devices memory. Consequently devices transmitting these packets can be vulnerable to tracking. Current locations are determined through the presence of a broadcasted MAC address to a receiver and previously visited locations can, in theory, be determined based on the SSIDs contained within the frames. To address this issue, operating system patches have been written to randomise the senders MAC address broadcast within probe requests, in order to make device tracking less trivial. However, adoption of these fixes has been limited, and the success varied across device manufacturers.
+Probe requests broadcast from wi-fi enabled devices not using MAC randomisation contain the devices MAC address and potentially a previously authenticated network name (SSID) from the devices memory. Consequently devices transmitting these packets can be vulnerable to tracking. Current locations are determined through the presence of a broadcasted devices MAC address to a receiver and previously visited locations can, in theory, be determined based on the SSIDs contained within the frames, via third party databases such as Wigle.net. To address this issue, operating system patches have been written to randomise the senders MAC address broadcast within probe requests, in order to make device tracking less trivial. However, adoption of these fixes has been limited, and the success varied across device manufacturers.
 
 This suite was produced to graphically visualise the tracking concerns through cross-referencing contained SSIDs with wardriving WiFi databases, and demonstrated manufacturer patch success rates or failings. This ran on Pythons Flask web framework. The interactive GUI and data representations within the portal were built in JavaScript, making use of D3.js (Data Driven Documents), Crossfilter.js and DC.js.
 
-Data was collected over a two-week period from public spaces in Birmingham during peak pedestrian hours. This data was be gathered using the Raspberry Pi packet sniffer built for the project. All data collected across this time frame was cleaned and aggregated using Pandas for local storage in a MongoDB Database.
+Data was collected over a two-week period from public spaces in Birmingham during peak pedestrian hours. This data was gathered using a [Raspberry Pi packet sniffer](https://attackingpixels.com/Raspberry-Pi-Packet-Sniffing/) built for the project. All data collected across this time frame was cleaned and aggregated using Pandas for local storage in a MongoDB Database.
 
 <h3>High-level graphical representation of the project</h3>
 
@@ -35,14 +35,13 @@ Data was collected over a two-week period from public spaces in Birmingham durin
 
 <h3>Building a picture of movements based on broadcast SSIDs</h3>
 
-The Directed probe data was captured from a known MacBook Air during closed device testing has been used to demonstrate the Geolocation functionality of this project. As all of the networks related to the MacBook Air are known it allows for the easier identification of false positives for this project.
+Directed probe request data was captured from a known MacBook Air during closed device testing and was used to demonstrate the Geolocation functionality of this project. As all of the networks related to the MacBook Air are known it allows for the easier identification of false positives for this project.
 
-13 out of the 16 SSIDs given out in the directed probes were successfully geolocated, which can be seen bellow. The geolocation has rather successfully displayed three regions of interest in the heatmap which can be defined by areas with more than one networks in a local range (< 5miles). These three regions are Birmingham where I’ve been studying, my parents’ home in Cheshire and a region of Spain where I’ve lived
-for several months. The accuracy of the locations is wholly dependent on collected data supplied by WiGLEs users. 
+13 out of the 16 SSIDs given out in the directed probes were successfully geolocated, which can be seen below. The geolocation displayed three regions of interest in the heatmap which can be defined by areas with more than one networks in a local range (< 5miles). These three regions are Birmingham where I’ve been studying, my parents’ home in Cheshire and a region of Spain where I lived for several months. The accuracy of the locations is wholly dependent on collected data supplied by WiGLEs users. 
 
 ![closed testing](./closedTesting.png)
 
-All the networks in the UK are extremely accurate to within 10 meters whereas the four networks located in Spain are less so with an accuracy of around 500m. However, this is an extremely remote region of Murcia, and I’m surprised that these networks were even present at all. 
+All the networks in the UK were extremely accurate to within 10 meters whereas the four networks located in Spain were less so, with an accuracy of around 500m. However, this is an extremely remote region of Murcia, and I’m surprised that these networks were even present at all. 
 
 These positives help to demonstrate the comprehensive network coverage the open source database WiGLE has. The false positives in Brazil, Sweden, The Philippines and Australia are all for the same SSID of J010 which was located in Spain. It was indicative of the incorrect hits within the geolocation results showing more generic/common SSIDs as noise.
 
@@ -65,12 +64,12 @@ There were networks that were stored within my MacBook’s memory such as ‘edu
 
 ![eduroam](./eduroam.jpg)
 
-Within the collected data set SSIDs were discovered that were capable of defining possible travel patterns which can be illustrated bellow through train operator onboard services. Airport SSIDs were rather common throughout the dataset which is
-understandable, as while people are waiting at an airport or if they have been delayed they are likely to connect to a Free Wi-Fi service to pass the time.
+Within the collected data set SSIDs were discovered that were capable of defining possible travel patterns which can be illustrated below through train operator onboard services. Airport SSIDs were rather common throughout the dataset which is
+understandable, as while people are waiting at an airport or if they have been delayed they are likely to connect to a Free Wi-Fi service to pass the time. 
 
 ![trains](./trains.jpg)
 
-Not all instances of airports within the data gave clean hits. If airports used a generic SSID such as ‘Airport Free WiFi’ as shown bellow, then the device could be shown to have visited up to 10 airports. Likewise, Wi-Fi services for Schiphol and Frankfurt gave many nationwide hits, although the highest density was on the Airports themselves.
+Not all instances of airports within the data gave clean hits. If airports used a generic SSID such as ‘Airport Free WiFi’ as shown below, then the device could be shown to have visited up to 10 airports. Likewise, Wi-Fi services for Schiphol and Frankfurt gave many nationwide hits, although the highest density was on the Airports themselves.
 
 ![airports](./airports.png)
 ![airports](./airports.jpg)
